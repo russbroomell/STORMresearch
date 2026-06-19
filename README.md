@@ -1,6 +1,4 @@
-# scaling-pancake
-
-Resources for setting up an autonomous agent ecosystem on a Mac to help build a new business, based on Matt VanHorn's agentic engineering workflow (June 2026).
+# STORM Research
 
 ## What's in this repo
 
@@ -51,12 +49,3 @@ A complete beginner's guide to setting up a Hermes agent — a self-learning, au
 - Connecting your notes (Bear, Obsidian) as the agent's knowledge base
 - Keeping 4–6 parallel agent sessions running with cmux
 - Business-specific workflows: idea analysis, competitive research, meeting transcripts, cold outreach, weekly updates
-
-## The core idea
-
-Traditional work is 80% doing, 20% thinking. This stack flips it. You provide taste and direction; the agents provide volume and execution. Every task follows the same loop:
-
-1. **Research** with `/last30days [topic]`
-2. **Plan** with `/ce-plan [goal]`
-3. **Build** with `/ce-work`
-4. **React and redirect**

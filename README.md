@@ -33,19 +33,3 @@ The command runs 4 phases automatically:
 **Why parallel agents?** The 5 expert perspectives in Phase 1 are fully independent — there's no reason to run them one at a time. Parallel execution cuts research time dramatically and, more importantly, each agent stays in its own perspective without contaminating the others.
 
 **Based on:** Stanford OVAL Lab's STORM paper, published at NAACL 2024. Peer-reviewed testing showed STORM-generated articles were 25% more organized and 10% broader in coverage than single-prompt research.
-
----
-
-### [`hermes-agent-setup-guide.md`](./hermes-agent-setup-guide.md)
-
-A complete beginner's guide to setting up a Hermes agent — a self-learning, autonomous Claude Code ecosystem that gets smarter at your repeated business tasks over time. Assumes you can set up a Mac but have no prior experience with AI agents or the terminal.
-
-**Covers:**
-- Creating a dedicated Mac user account to run the agent autonomously
-- Installing and configuring Claude Code with full autonomous permissions
-- Setting up Compound Engineering (`/ce-plan` + `/ce-work`) for the research-plan-build loop
-- Configuring voice input so you can direct the agent by talking
-- Giving the agent an email address so you can send tasks from your phone
-- Connecting your notes (Bear, Obsidian) as the agent's knowledge base
-- Keeping 4–6 parallel agent sessions running with cmux
-- Business-specific workflows: idea analysis, competitive research, meeting transcripts, cold outreach, weekly updates
